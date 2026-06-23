@@ -673,7 +673,7 @@ body {
       <div class="progress-fill" id="progressBar"></div>
     </div>
     <div class="progress-text">
-      <span id="progressText">Section 0 of 5</span>
+      <span id="progressText">Section 0 of 7</span>
       <span id="progressPercent">0%</span>
     </div>
   </div>
@@ -689,7 +689,7 @@ const state = {
   currentSection: 0,
   completedSections: [],
   quizScores: {},
-  totalSections: 5
+  totalSections: 7
 };
 
 // Course content
@@ -748,9 +748,21 @@ const modules = [
               </div>
             </div>
             <div class="module-item">
+              <span class="module-icon">📝</span>
+              <div>
+                <strong>Section 5:</strong> Good Performance Review Example
+              </div>
+            </div>
+            <div class="module-item">
+              <span class="module-icon">🛠️</span>
+              <div>
+                <strong>Section 6:</strong> Build Your Performance Review Template
+              </div>
+            </div>
+            <div class="module-item">
               <span class="module-icon">🎯</span>
               <div>
-                <strong>Section 5:</strong> Course Review & Assessment
+                <strong>Section 7:</strong> Course Review & Assessment
               </div>
             </div>
           </div>
@@ -1291,10 +1303,209 @@ const modules = [
   },
   {
     id: 5,
-    title: "Course Review & Final Assessment",
+    title: "Good Performance Review Example",
     content: `
       <div class="module-header">
         <div class="module-number">Section 5</div>
+        <div class="module-title">Example: Good First Performance Review</div>
+      </div>
+
+      <div class="card">
+        <h3>1. Strongest Metrics Reflection</h3>
+        <p>My strongest metrics are MCQA (Memorable Care Quality Assessment) and SRS (Survey Response Score).</p>
+
+        <p>MCQA assessments evaluate soft skills, problem-solving, and effectiveness with follow-up processes. To maintain a strong MCQA score, I focus on delivering memorable care through strong account management. I recognize that there may be moments where troubleshooting is not perfect, but I ensure the customer experience remains high quality through active listening, attention to detail, and thoughtful decision-making. I consistently use our Smart Owner (SO) name, maintain clarity in communication, and make high-quality decisions that balance efficiency with care.</p>
+
+        <p>My SRS is currently at 92%, reflecting a high percentage of positive customer responses. This demonstrates my strength in memorable care competencies such as customer focus, communication, and listening. I prioritize creating positive interactions that leave customers feeling heard and supported.</p>
+      </div>
+
+      <div class="card">
+        <h3>2. Improvement Metrics Reflection</h3>
+        <p>My improvement metric is FSA (Functional Skills Assessment), which ties to communication and functional/technical expertise.</p>
+
+        <p>Earlier in the quarter, my FSA was at 70%, reflecting gaps in my ability to consistently apply the correct solutions. A key area for improvement is my account management—specifically ensuring I fully understand the issue before resolving it.</p>
+
+        <p><strong>To improve:</strong></p>
+        <ul>
+          <li>I will continue strengthening my product and troubleshooting knowledge, especially around thresholds and edge cases</li>
+          <li>I will apply more structured account management practices to ensure all relevant details are captured</li>
+          <li>I will be more intentional about slowing down when needed to ensure the accuracy of my solution</li>
+        </ul>
+
+        <p>My goal is to increase my FSA into the 80–90% range next quarter, moving from development into consistent performance.</p>
+      </div>
+
+      <div class="card">
+        <h3>3. Challenges & Growth Plan</h3>
+        <p>One of my biggest challenges has been effective troubleshooting and continuous learning.</p>
+
+        <p><strong>To overcome this, I am focusing on:</strong></p>
+        <ul>
+          <li>Getting to the root of issues rather than addressing surface-level symptoms</li>
+          <li>Utilizing available resources more effectively to deepen my understanding</li>
+          <li>Strengthening account management practices, including ensuring child cases are linked and repeat issues are tracked</li>
+          <li>Collaborating with peers and leaders, such as discussing improvement areas with experienced team members to refine my workflow</li>
+        </ul>
+
+        <p>These actions will help me build stronger problem-solving habits and improve both efficiency and accuracy.</p>
+      </div>
+
+      <div class="card">
+        <h3>4. Goal Setting</h3>
+        <p>I want to focus on improving my functional skill set and consistency in performance metrics.</p>
+
+        <p>While FSA is an area of focus, I recognize that it may not always fully reflect performance due to volume. To support my overall effectiveness, I am setting a goal to increase and maintain my SOSA (Smart Owner's Served on Average), as it provides a more comprehensive view of efficiency when supporting Smart Owners.</p>
+
+        <p><strong>By maintaining a strong SOSA, I will:</strong></p>
+        <ul>
+          <li>Gain better insight into my performance trends</li>
+          <li>Identify recurring challenge areas through help desk scores and MCQA feedback</li>
+          <li>Continue improving both efficiency and quality of support</li>
+        </ul>
+
+        <p>This goal will help me develop a more balanced and data-informed approach to performance.</p>
+      </div>
+
+      <div class="card">
+        <h3>5. Teamwork, Initiative, and Metrics</h3>
+        <p><strong>Teamwork</strong></p>
+        <ul>
+          <li>I actively support colleagues by sharing knowledge and offering guidance</li>
+          <li>I am open to and receptive of feedback, and I apply it to improve my performance</li>
+          <li>I collaborate effectively during workflows and am available to support others when needed</li>
+        </ul>
+
+        <p><strong>Initiative</strong></p>
+        <ul>
+          <li>While speaking with Smart Owners, I proactively ask thoughtful questions to better understand procedures and improve process execution</li>
+          <li>I reflect on feedback and apply it consistently to improve quality and decision-making</li>
+          <li>I take ownership of my development by staying engaged and curious</li>
+        </ul>
+
+        <p><strong>Metrics</strong></p>
+        <ul>
+          <li>I consistently track above benchmark in several areas:</li>
+          <li>TSS (Total Satisfaction Surveys) reflects strong memorable care delivery</li>
+          <li>Ticket responsibility and handling demonstrate accountability and ownership</li>
+          <li>When I receive feedback or identify gaps, I act quickly, learn from it, and apply improvements moving forward</li>
+        </ul>
+
+        <p>These contributions support both my individual performance and the team's success.</p>
+      </div>
+
+      <div class="card">
+        <h3>6. Self-Assessment Rating</h3>
+        <p><strong>I would rate my overall performance as a 2 out of 5 (Building Performance).</strong></p>
+
+        <p>While I have started to demonstrate strengths in areas such as customer experience, communication, and delivering memorable care, I recognize that my performance is still developing—particularly in my technical accuracy, troubleshooting consistency, and confidence in applying solutions.</p>
+
+        <p>There are gaps in my consistency across key metrics like FSA, and I am still building the foundational habits needed to perform at a higher level consistently. However, I have strong awareness of my improvement areas and have already begun taking action to address them through targeted learning, better use of resources, and stronger account management practices.</p>
+
+        <p>I am confident that by continuing to apply feedback, focusing on my development areas, and maintaining a growth mindset, I will progress from building performance into consistent performance over the coming review cycles.</p>
+      </div>
+
+      <div class="highlight-box">
+        This example demonstrates thorough self-reflection, specific examples tied to metrics, and a clear growth plan. Use it as inspiration for your own review.
+      </div>
+    `
+  },
+  {
+    id: 6,
+    title: "Build Your Performance Review Template",
+    content: `
+      <div class="module-header">
+        <div class="module-number">Section 6</div>
+        <div class="module-title">Activity: Build Your Performance Review Template</div>
+      </div>
+
+      <div class="card">
+        <h3>Now it's your turn to take the first step toward your upcoming performance review.</h3>
+      </div>
+
+      <div class="card">
+        <h3>Step 1: Create your template in Salesforce</h3>
+        <div class="checklist">
+          <div class="checklist-item">
+            <div>Navigate to Salesforce and select the Development Journal view</div>
+          </div>
+          <div class="checklist-item">
+            <div>Choose "Performance Review" as the entry you'd like to create</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Step 2: Add the review questions</h3>
+        <div class="checklist">
+          <div class="checklist-item">
+            <div>Open Launch Communities and go to the "Performance Review Expectations" page</div>
+          </div>
+          <div class="checklist-item">
+            <div>Copy all 6 questions listed there</div>
+          </div>
+          <div class="checklist-item">
+            <div>Return to your Salesforce entry and paste the questions into your Performance Review template</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Step 3: Start your reflection</h3>
+        <p>For your first review, focus on Question 4:</p>
+        <div class="highlight-box" style="background: white; color: #144745; border: 2px solid #C3DAF4;">
+          "What goal would you like to set from this Performance Review? Refer back to your improvement areas. What actions will you take to achieve this goal?"
+        </div>
+        <p style="margin-top: 15px;">Begin drafting your response using your current improvement areas as a guide.</p>
+      </div>
+
+      <div class="card">
+        <h3>Step 4: Complete the setup</h3>
+        <div class="checklist">
+          <div class="checklist-item">
+            <div>Set your performance rating</div>
+          </div>
+          <div class="checklist-item">
+            <div>Select the quarter you are reviewing</div>
+          </div>
+          <div class="checklist-item">
+            <div>Save your entry</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>What's Next</h3>
+        <p>This template will be the foundation for your first performance review with your supervisor around weeks 9–10.</p>
+
+        <p><strong>Over the coming weeks:</strong></p>
+        <ul>
+          <li>Revisit this template during your Personal Development time</li>
+          <li>Continue working through and answering all 6 questions</li>
+          <li>Review and filter the reports on your dashboard to align with your current review cycle timeline, so you're using the most relevant data to inform your reflections</li>
+          <li>Use this as your preparation for your review conversation</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Support & Expectations</h3>
+        <ul>
+          <li>If questions come up, share them in your cohort channel—chances are others are wondering the same thing, and we can learn together</li>
+          <li>Remember: the goal isn't perfection. It's building the habit of meaningful reflection so you can set clear goals and set yourself up for success</li>
+          <li>Your performance review is an opportunity to align with your supervisor, helping them support you and clear the path toward achieving your goals</li>
+        </ul>
+      </div>
+
+      <div class="highlight-box">
+        Take your time with this activity. Building a strong foundation now will make your first performance review a much more positive and productive experience.
+      </div>
+    `
+  },
+  {
+    id: 7,
+    title: "Course Review & Final Assessment",
+    content: `
+      <div class="module-header">
+        <div class="module-number">Section 7</div>
         <div class="module-title">Course Review & Final Assessment</div>
       </div>
 
